@@ -1,15 +1,15 @@
 snippet cs
 	var cx = React.addons.classSet;
 snippet cdm
-	componentDidMount() {
+	componentDidMount () {
 		${1}
 	}
 snippet cdup
-	componentDidUpdate(prevProps, prevState) {
+	componentDidUpdate (prevProps, prevState) {
 		${1}
 	}
 snippet cwm
-	componentWillMount() {
+	componentWillMount () {
 		${1}
 	}
 snippet cwr
@@ -17,7 +17,7 @@ snippet cwr
 		${1}
 	}
 snippet cwun
-	componentWillUnmount() {
+	componentWillUnmount () {
 		${1}
 	}
 snippet cwu
@@ -31,13 +31,13 @@ snippet cx
 snippet fup
 	forceUpdate(${1:callback});
 snippet gdp
-	getDefaultProps() {
+	getDefaultProps () {
 		return {
 			${1}
 		};
 	}
 snippet gis
-	getInitialState() {
+	getInitialState () {
 		return {
 			${1}: ${2}
 		};
@@ -55,67 +55,67 @@ snippet pt
 snippet rcc
 	import React, { PropTypes, Component } from 'react'
 
-	class _${1:ClassName} extends Component {
+	class ${1:ClassName} extends Component {
 
-		render() {
+		render () {
 			return (
 				${0:<div />}
 			)
 		}
 	}
 
-	_$1.propTypes = {
+	$1.propTypes = {
 
 	}
 
-	export default _$1
+	export default $1
 snippet cc
-	class _${1:ClassName} extends Component {
+	class ${1:ClassName} extends Component {
 
-		render() {
+		render () {
 			return (
 				${0:<div />}
 			)
 		}
 	}
 
-	export const $1 = _$1
+	export $1
 snippet slc
-	const _${1:ClassName} = (props) => {
+	const ${1:ClassName} = (props) => {
 		return (
 			${0:<div />}
 		)
 	}
 
-	_$1.propTypes = {
+	$1.propTypes = {
 
 	}
 snippet rslc
 	import React, { PropTypes } from 'react'
 
-	const _${1:ClassName} = (props) => {
+	const ${1:ClassName} = (props) => {
 		return (
 			${0:<div />}
 		)
 	}
 
-	_$1.propTypes = {
+	$1.propTypes = {
 
 	}
 
-	export default _$1
+	export default $1
 snippet ren
-	render() {
+	render () {
 		return (
 			${1:<div />}
 		);
 	}
 snippet sst
-	setState({
+	setState ({
 		${1}: ${2}
 	});
 snippet scu
-	shouldComponentUpdate(nextProps, nextState) {
+	shouldComponentUpdate (nextProps, nextState) {
 		${1}
 	}
 snippet props
